@@ -1,6 +1,8 @@
 ### Test python file ###
 
-for i in range (0, 10):
-    print("*"*i)
+import sys
+import pygame as pg
+from time import sleep
 
-print("Done")
+#initialize pygame
+pg.init()
